@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import pandas as pd
 
-import schema
+from . import schema
 
 
 def add_episode_id(df: pd.DataFrame) -> pd.DataFrame:

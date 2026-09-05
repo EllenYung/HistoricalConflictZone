@@ -10,7 +10,7 @@ import logging
 
 import pandas as pd
 
-from loaders import read_gw_iso_crosswalk
+from .loaders import read_gw_iso_crosswalk
 
 logger = logging.getLogger(__name__)
 

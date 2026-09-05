@@ -13,7 +13,7 @@ from pathlib import Path
 # Repository root, resolved relative to this file rather than the cwd so that
 # the pipeline behaves the same from a notebook, a test runner or the CLI.
 PACKAGE_DIR = Path(__file__).resolve().parent
-REPO_ROOT = PACKAGE_DIR
+REPO_ROOT = PACKAGE_DIR.parents[1]
 
 DATA_DIR = REPO_ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"

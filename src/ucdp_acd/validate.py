@@ -17,8 +17,8 @@ from dataclasses import dataclass, field
 
 import pandas as pd
 
-import schema
-from config import EXPECTED_VERSION, FIRST_YEAR, LAST_YEAR
+from . import schema
+from .config import EXPECTED_VERSION, FIRST_YEAR, LAST_YEAR
 
 
 class ValidationError(RuntimeError):
